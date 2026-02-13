@@ -4,5 +4,6 @@ module instruction_control(
 );
 
 assign control[0] = instr_ctrl[0];
+assign control[7] = instr_ctrl[1];
 
 endmodule
